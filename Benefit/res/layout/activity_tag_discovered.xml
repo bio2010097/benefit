@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+    <include layout="@layout/layout_include_toolbar"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="@string/content_nfc_discovered"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+</LinearLayout>

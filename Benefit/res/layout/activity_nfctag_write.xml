@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+    
+    <include layout="@layout/layout_include_toolbar"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="500px"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="application/타입 : "
+            />
+    <EditText
+        android:id="@+id/typeEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="application/com.example.es.nfcreader"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="500px"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="태그내용 : "
+            />
+        <EditText
+            android:id="@+id/tagEdit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="CU"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
